@@ -19,7 +19,7 @@ import com.swamy.service.JobPostService;
 
 @RestController
 @RequestMapping("api/jobs")
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = {"http://localhost:4200/","https://angular-dev-finder-app.herokuapp.com/"})
 public class JobPostRestController {
 	
 	@Autowired
